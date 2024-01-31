@@ -1,4 +1,4 @@
-package StorageSystem;
+package Server.StorageSystem;
 
 public class StorageSystem {
     
