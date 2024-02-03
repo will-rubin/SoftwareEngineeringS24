@@ -4,6 +4,10 @@ public class User {
     /* What the user needs to be able to do
      * 
      */
+    //either upload a file or choose a web source (url?)
+    //choose your delimiter character for the output (with some reasonable defaults)
+    //choose a destination for the output
+    //send choices to EngineController
 }
 
 /*

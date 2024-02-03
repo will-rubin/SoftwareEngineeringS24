@@ -2,8 +2,13 @@ package Server.ComputeEngine;
 
 public class ComputeEngine {
     /* What the compute engine needs to be able to do
-     * 
+     * This component will do the actual calculation and will not be the "user"
      */
+
+    //accept some string
+    //parse string into operands and parameters
+    //do the calculation
+    //return the result in a specified fashion
 }
 
 /*
