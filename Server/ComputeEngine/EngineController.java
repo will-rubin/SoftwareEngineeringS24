@@ -22,5 +22,6 @@ public interface EngineController {
 }
 
 public void testEngineController(UserInput userInput, UserOutput userOutput, UserDelimiter userDelimiter) {
-
+    StorageResponse storeResponse = systemStore.storeData(new DataStorageRequest());
+    
 }
