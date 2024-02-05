@@ -20,3 +20,7 @@ public interface EngineController {
 
     //send computed data to storage system of use choice
 }
+
+public void testEngineController(UserInput userInput, UserOutput userOutput, UserDelimiter userDelimiter) {
+
+}
