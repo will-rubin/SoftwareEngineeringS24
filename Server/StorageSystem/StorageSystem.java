@@ -16,7 +16,7 @@ public class StorageSystem {
     }
     public interface DataStore
     {
-        StorageSystemResponse storeData(EngineControllerRequest newRequest);
+        EngineResponse storeData(EngineControllerRequest newRequest);
         LoadResponse loadData(KeyStorage newKey);
     }
 }
