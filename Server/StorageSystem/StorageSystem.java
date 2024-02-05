@@ -11,6 +11,7 @@ public class StorageSystem {
     //cache data to connect or write to sources more quickly?
     public void testStorageSystem(StorageSystem storage) {
         StorageSystemResponse responseData = EngineController.storeData(new StorageSystemRequest());
+        EngineResponse responseData = StorageSystem.storeData(new EngineControllerRequest());
         // retrieve the data
         LoadResponse dataLoad = EngineController.loadData(LoadResponse.getKeyData());
     }
