@@ -7,7 +7,9 @@ public class ComputeEngine {
     //accept some string
     String userInput = User.input();
     //parse string into operands and parameters
+    Integer number = Integer.parseInt(userInput);
     //do the calculation
+    
     //return the result in a specified fashion
 }
 
