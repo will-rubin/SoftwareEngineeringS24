@@ -1,4 +1,4 @@
-package Server.StorageSystem;
+gipackage Server.StorageSystem;
 
 public class StorageSystem {
     /* What the storage system needs to be able to do
@@ -10,13 +10,14 @@ public class StorageSystem {
     //write data to output source, close output source
     //cache data to connect or write to sources more quickly?
     public void testStorageSystem(StorageSystem storage) {
-        StorageSystemResponse responseData = systemStore.storeData(new StorageSystemRequest());
+        StorageSystemResponse responseData = EngineController.storeData(new StorageSystemRequest());
+        EngineResponse responseData = StorageSystem.storeData(new EngineControllerRequest());
         // retrieve the data
-        LoadResponse dataLoad = systemStore.loadData(LoadResponse.getKeyData());
+        LoadResponse dataLoad = EngineController.loadData(LoadResponse.getKeyData());
     }
     public interface DataStore
     {
-        StorageSystemResponse storeData(StorageSystemRequest newRequest);
+        EngineResponse storeData(EngineControllerRequest newRequest);
         LoadResponse loadData(KeyStorage newKey);
     }
 }

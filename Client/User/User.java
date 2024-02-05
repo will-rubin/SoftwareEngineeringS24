@@ -8,6 +8,8 @@ public interface User {
     //choose your delimiter character for the output (with some reasonable defaults)
     //choose a destination for the output
     //send choices to EngineController
+    ComputeEngineResponse getUserInput(ComputeEngineRequest request); 
+    ComputeEngineLoad getComputeEngineData(ComputeEngineKey key);
     public String input ="-1";
     while (Integer.parseInt(input)<0 || Integer.parseInt(input)>Integer.MAX_VALUE)
     {
