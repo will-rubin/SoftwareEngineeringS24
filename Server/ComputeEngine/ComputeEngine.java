@@ -1,6 +1,6 @@
 package Server.ComputeEngine;
 
-public class ComputeEngine {
+public interface ComputeEngine {
     /* What the compute engine needs to be able to do
      * This component will do the actual calculation and will not be the "user"
      */
@@ -16,6 +16,10 @@ public class ComputeEngine {
     //return the calculation
     sendResultToController(Result);
   }
+
+public void testComputeEngine(Input input) {
+  
+}
 
 /*
     An API between two separate components within the compute engine. One

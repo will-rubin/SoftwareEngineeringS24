@@ -1,6 +1,6 @@
 package Client.User;
 
-public class User {
+public interface User {
     /* What the user needs to be able to do
      * 
      */
@@ -16,6 +16,11 @@ public class User {
       input = myObj.nextLine(); 
     }
 }
+public void testUser() {
+  
+}
+
+
 
 /*
     An API between the user and the compute engine.
