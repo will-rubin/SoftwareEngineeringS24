@@ -4,10 +4,12 @@ public class StorageSystem {
     /* What the storage system needs to be able to do
      */
     //check if user-specified input is readable
-
+    UserInput userInput = User.getInput();
+    if (isReadableFile(userInput))
     //check if user-specified output source is good,
         //then initialize output source
-
+        if(isValidOutput(userInput)
+           
     //convert data to different readable and writable formats
 
     //write data to output source, close output source
