@@ -8,15 +8,7 @@ public class ComputeEngine {
     //parse string into operands and parameters
     //do the calculation
     //return the result in a specified fashion
-    String userInput = User.input();
-    while (Integer.parseInt(userInput)<0 || Integer.parseInt(userInput)>Integer.MAX_VALUE)
-    {
-      Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-      System.out.println("Enter an input number");
-      userInput = myObj.nextLine(); 
-    }
-      //parse string into operands and parameters
-      Integer number = Integer.parseInt(userInput);
+      Integer number = Integer.parseInt(User.input);
       //do the calculation
       int empty=0;
       String result="";
