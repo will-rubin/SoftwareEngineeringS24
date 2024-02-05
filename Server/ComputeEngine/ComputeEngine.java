@@ -4,9 +4,16 @@ public interface ComputeEngine {
     /* What the compute engine needs to be able to do
      * This component will do the actual calculation and will not be the "user"
      */
-    //ComputeEngine must take in a stream of integers
+    ControllerResponse workableData = makeControllerRequest();
+    Results results = calculation(workableData);
+    sendEngineResponse(results);
+    
+  }
+
+public void testComputeEngine(Input input) {
+  //ComputeEngine must take in a stream of integers
     //accept some int
-    UserInput userInput = EngineController.getUserInputStream();
+    UserInputInteger userInputInteger = EngineController.getUserInputStream();
     //do the calculation
     
     FactorsOfInput factors = findFactors(userInput)
@@ -15,10 +22,6 @@ public interface ComputeEngine {
     }
     //return the calculation
     sendResultToController(Result);
-  }
-
-public void testComputeEngine(Input input) {
-  
 }
 
 /*
