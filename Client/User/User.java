@@ -4,6 +4,7 @@ public class User {
     /* What the user needs to be able to do
      * 
      */
+    public Integer input;
     //either upload a file or choose a web source (url?)
     //choose your delimiter character for the output (with some reasonable defaults)
     //choose a destination for the output
