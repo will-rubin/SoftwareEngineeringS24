@@ -1,4 +1,4 @@
-public class StorageSystem {
+public interface StorageSystem {
     /* What the storage system needs to be able to do
      */
     //check if user-specified input is readable
@@ -18,6 +18,7 @@ public class StorageSystem {
         EngineResponse storeData(EngineControllerRequest newRequest);
         LoadResponse loadData(KeyStorage newKey);
     }
+    
 }
 
 /*

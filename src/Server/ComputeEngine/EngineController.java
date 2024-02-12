@@ -1,4 +1,4 @@
-package Server.ComputeEngine;
+package src.Server.ComputeEngine;
 
 public interface EngineController {
     /* This component will handle initialization, reading and writing for a job

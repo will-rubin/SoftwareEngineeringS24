@@ -1,4 +1,3 @@
-package TestAndExtraFiles;
 
 public class CyrusCode {
     /*
