@@ -3,7 +3,7 @@ import static org.mockito.Mockito.when;
 
 import org.junit.Test;
 
-public class myTest {
+public class MyTest {
 
     @Test
     public static void main(String[] args) {

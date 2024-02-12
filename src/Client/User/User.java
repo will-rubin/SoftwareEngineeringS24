@@ -14,7 +14,8 @@ public interface User {
 /*
     An API between the user and the compute engine.
 
-    The user will specify a source for the input, delimiter characters for the output, and a destination for the
+    The user will specify a source for the input, delimiter characters for the output, 
+    and a destination for the
     output.
 
     a. Make sure to make the source/destination general - the source could be a

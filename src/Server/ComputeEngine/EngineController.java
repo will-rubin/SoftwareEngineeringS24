@@ -3,10 +3,12 @@
 public interface EngineController {
     /* This component will handle initialization, reading and writing for a job
      * This is a network API between the user and the compute engine
-     * I like the idea of just having a single request wrapper as Prof. Brainard does, that way the user
+     * I like the idea of just having a single request wrapper
+     *  as Prof. Brainard does, that way the user
      * can input all of their choices
      * 
-     * The EngineController will send a ComputeRequest and get a ComputeRwsult in return
+     * The EngineController will send a ComputeRequest and get
+     *  a ComputeRwsult in return
      */
 
     ComputeResult compute(ComputeRequest request);
