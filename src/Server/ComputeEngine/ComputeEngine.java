@@ -1,4 +1,3 @@
-package src.Server.ComputeEngine;
 
 public interface ComputeEngine {
     /* What the compute engine needs to be able to do

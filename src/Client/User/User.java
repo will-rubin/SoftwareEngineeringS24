@@ -1,5 +1,3 @@
-package src.Client.User;
-
 public interface User {
     /* What the user needs to be able to do
      * 

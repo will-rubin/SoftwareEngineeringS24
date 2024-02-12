@@ -1,4 +1,3 @@
-package src.Server.ComputeEngine;
 
 public interface ComputeResult {
 
