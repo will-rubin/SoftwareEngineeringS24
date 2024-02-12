@@ -4,24 +4,14 @@ public interface ComputeEngine {
     /* What the compute engine needs to be able to do
      * This component will do the actual calculation and will not be the "user"
      */
-    ControllerResponse workableData = makeControllerRequest();
-    Results results = calculation(workableData);
-    sendEngineResponse(results);
+    String compute(int value);
     
   }
 
-public void testComputeEngine(Input input) {
-  //ComputeEngine must take in a stream of integers
-    //accept some int
-    UserInputInteger userInputInteger = EngineController.getUserInputStream();
-    //do the calculation
-    
-    FactorsOfInput factors = findFactors(userInput)
-    for(factor in factors) {
-      CalculateAbundancy(factor, userInput);
-    }
-    //return the calculation
-    sendResultToController(Result);
+public void testComputeEngine(int input) {
+  //compute factors of input
+  //decide if valid or not
+  //return a string
 }
 
 /*

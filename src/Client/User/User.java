@@ -8,17 +8,9 @@ public interface User {
     //choose your delimiter character for the output (with some reasonable defaults)
     //choose a destination for the output
     //send choices to EngineController
-    ComputeEngineResponse getUserInput(ComputeEngineRequest request); 
-    ComputeEngineLoad getComputeEngineData(ComputeEngineKey key);
-    public String input ="-1";
-    while (Integer.parseInt(input)<0 || Integer.parseInt(input)>Integer.MAX_VALUE)
-    {
-      Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-      System.out.println("Enter an input number");
-      input = myObj.nextLine(); 
-    }
+    
 }
-public void testUser() {
+public static void testUser() {
   
 }
 

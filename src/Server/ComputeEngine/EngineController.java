@@ -2,12 +2,16 @@ package src.Server.ComputeEngine;
 
 public interface EngineController {
     /* This component will handle initialization, reading and writing for a job
+     * This is a network API between the user and the compute engine
+     * I like the idea of just having a single request wrapper as Prof. Brainard does, that way the user
+     * can input all of their choices
      * 
+     * The EngineController will send a ComputeRequest and get a ComputeRwsult in return
      */
-    //initialiize user choices
-    UserInput userInput = User.getInput();
-    UserOutput userOutput = User.getOutput();
-    UserDelimiter userDelimiter = User.getDelimiter();
+
+    ComputeResult compute(ComputeRequest request);
+
+    //get user choices and then send it to the 
     //call storage system if necessary to get input
         //send source details to storage system
         //receive response of input values
