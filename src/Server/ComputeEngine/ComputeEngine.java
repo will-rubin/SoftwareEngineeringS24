@@ -6,13 +6,8 @@ public interface ComputeEngine {
      */
     String compute(int value);
     
-  }
-
-public void testComputeEngine(int input) {
-  //compute factors of input
-  //decide if valid or not
-  //return a string
 }
+
 
 /*
     An API between two separate components within the compute engine. One

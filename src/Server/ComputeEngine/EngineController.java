@@ -25,7 +25,4 @@ public interface EngineController {
     //send computed data to storage system of use choice
 }
 
-public void testEngineController() {
-    StorageResponse storeResponse = systemStore.storeData(new DataStorageRequest());
-        
-}
+

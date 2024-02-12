@@ -25,12 +25,6 @@ public interface StorageSystem {
     //convert data to different readable and writable formats
     //write data to output source, close output source
     //cache data to connect or write to sources more quickly?
-
-    
-
-    public void testStorageSystem(StorageSystem storage) {
-
-    }
 }
 
 

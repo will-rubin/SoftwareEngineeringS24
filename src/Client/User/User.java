@@ -10,9 +10,6 @@ public interface User {
     //send choices to EngineController
     
 }
-public static void testUser() {
-  
-}
 
 
 
