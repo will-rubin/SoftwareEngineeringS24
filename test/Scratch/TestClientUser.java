@@ -1,7 +1,7 @@
-import mockito.Mockito;
-import mockito.Mockito.when;
-import mockito.Mockito.any;
+import org.mockito.Mockito;
+import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.any;
 
-public class TestClientUser
-  {
-  }
+public class TestClientUser {
+  
+}
