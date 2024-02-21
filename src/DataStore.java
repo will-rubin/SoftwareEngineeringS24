@@ -1,4 +1,4 @@
-public class InMemoryDataStore implements DataStore{
+public class DataStore {
     public void processData(InputConfig inputConfig, OutputConfig outputConfig) {
         List<Integer> inputData = (List<Integer>) inputConfig.getIterator().next();
       //Read the list of integers

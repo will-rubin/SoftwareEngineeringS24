@@ -4,7 +4,6 @@ public interface ComputeEngine {
      * This component will do the actual calculation and will not be the "user"
      */
     String compute(int value);
-    
 }
 
 
