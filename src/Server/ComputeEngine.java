@@ -1,3 +1,4 @@
+package Server;
 
 public interface ComputeEngine {
     /* What the compute engine needs to be able to do
