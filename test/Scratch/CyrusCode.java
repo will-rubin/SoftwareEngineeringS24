@@ -7,10 +7,8 @@ public class CyrusCode {
       int empty=0;
       String result="";
       System.out.println(28/6);
-      for (int a=1; a<number; a++)
-      {
-          if (number%a == 0)
-          {
+      for (int a=1; a<number; a++) {
+          if (number%a == 0) {
               //System.out.println(theThing);
               //System.out.println(true);
               //empty+=theThing;
@@ -19,16 +17,13 @@ public class CyrusCode {
           }
         
       }
-      if (empty==number)
-      {
+      if (empty==number) {
         result="perfect";
       }
-      else if (empty<number)
-      {
+      else if (empty<number) {
         result="deficient";
       }
-      else
-      {
+      else {
         result="abundant";
       }
       //return the result in a specified fashion
