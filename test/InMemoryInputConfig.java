@@ -1,12 +1,25 @@
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import user.InputConfig;
+import server.InputConfig;
 
 public class InMemoryInputConfig<T> implements InputConfig {
-    private final List<T> data;
-    public InMemoryInputConfig(List<T> data) {
-        this.data = Collections.unmodifiableList(data); 
-    }
+    private final List<Integer> inputs = new ArrayList<>();
+
+    public InMemoryInputConfig(int... inputs) {
+		for (int i : inputs) {
+			this.inputs.add(i);
+		}
+	}
+
+    public InMemoryInputConfig(Collection<Integer> inputs) {
+		this.inputs.addAll(inputs);
+	}
+
+    public List<Integer> getInputs() {
+		return inputs;
+	}
 }

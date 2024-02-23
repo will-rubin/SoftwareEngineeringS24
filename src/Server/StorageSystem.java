@@ -1,6 +1,4 @@
 package server;
-import user.InputConfig;
-import user.OutputConfig;
 
 public interface StorageSystem {
 
