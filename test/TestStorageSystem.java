@@ -2,10 +2,10 @@ import server.InputConfig;
 import server.OutputConfig;
 import server.StorageSystem;
 import server.WriteResult;
-import server.OutputConfig.InMemoryOutputConfig;
 
 public class TestStorageSystem implements StorageSystem {
-    @Override
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
 	public Iterable<Integer> read(InputConfig input) {
 		return ((InMemoryInputConfig)input).getInputs();
 	}
