@@ -1,3 +1,4 @@
+package scratch;
 
 public class CyrusCode {
     /*

@@ -6,7 +6,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import user.OutputConfig.InMemoryOutputConfig;
+import server.OutputConfig.InMemoryOutputConfig;
 
 public class ComputeEngineIntegrationTest{
   @Test
