@@ -2,9 +2,10 @@ package server;
 
 import java.util.Collections;
 
-import User.InputConfig;
+
 import user.InputConfig;
-import user.OutputConfig;.WriteResultStatus;
+import user.OutputConfig;
+import server.WriteResult.WriteResultStatus;
 
 public class StorageSystemImplementation implements StorageSystem {
     @Override
