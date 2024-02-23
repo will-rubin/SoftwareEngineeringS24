@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.List;
 
 public class Coordinator {
     private final DataStore dataStore;
