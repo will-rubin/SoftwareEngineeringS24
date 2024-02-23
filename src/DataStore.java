@@ -1,3 +1,6 @@
+import User.InputConfig;
+import User.OutputConfig;
+
 public class DataStore {
     public void processData(InputConfig inputConfig, OutputConfig outputConfig) {
         List<Integer> inputData = (List<Integer>) inputConfig.getIterator().next();

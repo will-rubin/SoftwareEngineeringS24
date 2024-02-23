@@ -1,3 +1,7 @@
+package Server;
+import User.InputConfig;
+import User.OutputConfig;
+
 public interface StorageSystem {
 
     /*

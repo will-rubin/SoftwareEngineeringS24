@@ -1,6 +1,5 @@
-
-import src.Client.User.InputConfig;
-import src.Client.User.OutputConfig;
+import User.InputConfig;
+import User.OutputConfig;
 
 public interface ComputeRequest {
     InputConfig getInputConfig();
