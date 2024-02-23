@@ -3,6 +3,10 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import server.compute.ComputeEngine;
+import server.compute.ComputeRequest;
+import server.compute.ComputeResult;
+
 public class CoordinatorTest {
 
 	@Test
@@ -17,6 +21,6 @@ public class CoordinatorTest {
 		ComputeRequest mockRequest = Mockito.mock(ComputeRequest.class);
 		ComputeResult result = coord.compute(mockRequest);
 		
-		Assert.assertEquals(result.getStatus(), ComputeResult.Status.SUCCESS);
+		Assert.assertEquals(result.getResultStatus(), ComputeResult.Status.SUCCESS);
 	}
 }
