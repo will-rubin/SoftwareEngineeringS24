@@ -1,4 +1,4 @@
-package server.computeEngine;
+package server.compute;
 
 
 public interface ComputeEngine {
