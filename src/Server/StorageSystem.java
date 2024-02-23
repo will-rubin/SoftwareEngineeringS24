@@ -1,5 +1,7 @@
 package server;
 
+import server.WriteResult.WriteResultStatus;
+
 public interface StorageSystem {
 
     /*
@@ -15,7 +17,7 @@ public interface StorageSystem {
     //Again going with Prof. Brainard's take, let just gradually build up an output until
     // a final result is ready to be sent -
     // we can have another Result for actual transmission
-    WriteResult addResult(OutputConfig output, String result);
+    WriteResultStatus addResult(OutputConfig output, String result);
 
 
 
