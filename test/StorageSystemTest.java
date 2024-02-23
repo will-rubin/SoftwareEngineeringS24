@@ -24,6 +24,7 @@ public class StorageSystemTest {
 		
 		StorageSystemImplementation dataStore = new StorageSystemImplementation();
 		
-		Assert.assertEquals(WriteResultStatus.SUCCESS, dataStore.addResult(outputConfig, "result").getStatus());
+		Assert.assertEquals(WriteResultStatus.SUCCESS, 
+		dataStore.addResult(outputConfig, "result").getStatus());
 	}
 }
