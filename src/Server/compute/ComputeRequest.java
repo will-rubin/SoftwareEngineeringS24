@@ -1,6 +1,6 @@
 package server.compute;
-import user.InputConfig;
-import user.OutputConfig;
+import server.InputConfig;
+import server.OutputConfig;
 
 public interface ComputeRequest {
     InputConfig getInputConfig();

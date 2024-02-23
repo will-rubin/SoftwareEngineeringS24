@@ -2,9 +2,6 @@ package server;
 
 import java.util.Collections;
 
-
-import user.InputConfig;
-import user.OutputConfig;
 import server.WriteResult.WriteResultStatus;
 
 public class StorageSystemImplementation implements StorageSystem {
