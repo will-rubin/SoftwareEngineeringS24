@@ -5,7 +5,6 @@ import server.WriteResult;
 
 public class TestStorageSystem implements StorageSystem {
     @SuppressWarnings({ "rawtypes", "unchecked" })
-	@Override
 	public Iterable<Integer> read(InputConfig input) {
 		return ((InMemoryInputConfig)input).getInputs();
 	}
