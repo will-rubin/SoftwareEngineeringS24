@@ -10,7 +10,7 @@ import server.WriteResult.WriteResultStatus;
 public class StorageSystemTest {
     @Test
 	public void smokeTestRead() {
-		
+
 		InputConfig inputConfig = Mockito.mock(InputConfig.class);
 		
 		StorageSystemImplementation dataStore = new StorageSystemImplementation();
@@ -19,12 +19,16 @@ public class StorageSystemTest {
 	
 	@Test
 	public void smokeTestWrite() {
-		
 		OutputConfig outputConfig = Mockito.mock(OutputConfig.class);
 		
 		StorageSystemImplementation dataStore = new StorageSystemImplementation();
 		
+
 		Assert.assertEquals(WriteResultStatus.SUCCESS, 
 		dataStore.addResult(outputConfig, "result").getStatus());
+
+		
+		Assert.assertEquals(WriteResultStatus.SUCCESS, dataStore.addResult(outputConfig, "result").getStatus());
+
 	}
 }
