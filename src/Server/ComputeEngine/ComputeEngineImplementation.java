@@ -19,11 +19,9 @@ public class ComputeEngineImplementation implements ComputeEngine {
       }
       if (empty==number) {
         result="perfect";
-      }
-      else if (empty<number) {
+      } else if (empty<number) {
         result="deficient";
-      }
-      else {
+      } else {
         result="abundant";
       }
       //return the result in a specified fashion
