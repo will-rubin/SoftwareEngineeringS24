@@ -1,6 +1,6 @@
-package Server;
-import User.InputConfig;
-import User.OutputConfig;
+package server;
+import user.InputConfig;
+import user.OutputConfig;
 
 public interface StorageSystem {
 

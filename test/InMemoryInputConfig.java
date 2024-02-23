@@ -2,7 +2,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import User.InputConfig;
+import user.InputConfig;
 
 public class InMemoryInputConfig<T> implements InputConfig {
     private final List<T> data;

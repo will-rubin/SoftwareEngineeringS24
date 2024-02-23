@@ -1,5 +1,5 @@
-import User.InputConfig;
-import User.OutputConfig;
+import user.InputConfig;
+import user.OutputConfig;
 
 public class DataStore {
     public void processData(InputConfig inputConfig, OutputConfig outputConfig) {

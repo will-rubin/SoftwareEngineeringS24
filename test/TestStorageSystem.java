@@ -1,7 +1,7 @@
-import Server.WriteResult;
-import User.InputConfig;
-import User.OutputConfig;
-import User.OutputConfig.InMemoryOutputConfig;
+import server.WriteResult;
+import user.InputConfig;
+import user.OutputConfig;
+import user.OutputConfig.InMemoryOutputConfig;
 
 public class TestStorageSystem implements StorageSystem {
     @Override
