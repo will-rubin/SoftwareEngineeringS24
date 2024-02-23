@@ -1,9 +1,9 @@
-package scratch;
+package server.compute;
+public class ComputeEngineImplementation implements ComputeEngine {
 
-public class CyrusCode {
-    /*
-     * //return the result in a specified fashion
-      Integer number = Integer.parseInt(User.input);
+    @Override
+    public String compute(int number) {
+    
       //do the calculation
       int empty=0;
       String result="";
@@ -20,15 +20,14 @@ public class CyrusCode {
       }
       if (empty==number) {
         result="perfect";
-      }
-      else if (empty<number) {
+      } else if (empty<number) {
         result="deficient";
-      }
-      else {
+      } else {
         result="abundant";
       }
       //return the result in a specified fashion
       System.out.println(result);
-  }
-     */
+      return result;
+    }
+    
 }
