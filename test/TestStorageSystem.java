@@ -14,4 +14,4 @@ public class TestStorageSystem implements StorageSystem {
 		return () -> WriteResult.WriteResultStatus.SUCCESS;
 	}
     
-  }
+}
