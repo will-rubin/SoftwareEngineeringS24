@@ -4,3 +4,4 @@ Chosen Computation: Based off of Problem 23 on projecteuler.net, our program wil
 
 ![SystemDiagram](https://github.com/will-rubin/SoftwareEngineeringS24/assets/130941024/479bbca8-0126-407d-88db-ee6cf8d95c5a)
 
+The upper boundary on the number of threads this program could execute at once is 3 threads. 
