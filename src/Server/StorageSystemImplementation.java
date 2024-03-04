@@ -2,6 +2,8 @@ package server;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Collections;
 
 import server.WriteResult.WriteResultStatus;
@@ -13,6 +15,7 @@ public class StorageSystemImplementation implements StorageSystem {
 		return Collections.emptyList(); 
 	}
 
+	
 	@Override
 	public WriteResultStatus addResult(OutputConfig output, String result) {
 		try {

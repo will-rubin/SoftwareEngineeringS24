@@ -2,7 +2,6 @@ import server.InputConfig;
 import server.OutputConfig;
 import server.StorageSystem;
 import server.WriteResult;
-
 public class TestStorageSystem implements StorageSystem {
     @SuppressWarnings({ "rawtypes", "unchecked" })
 	public Iterable<Integer> read(InputConfig input) {
@@ -15,4 +14,4 @@ public class TestStorageSystem implements StorageSystem {
 		return () -> WriteResult.WriteResultStatus.SUCCESS;
 	}
     
-  }
+}
