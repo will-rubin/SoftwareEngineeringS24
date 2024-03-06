@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import server.OutputConfig.InMemoryOutputConfig;
+import server.compute.ComputeEngine;
+import server.compute.ComputeEngineImplementation;
 
 public class ComputeEngineIntegrationTest{
   @Test
